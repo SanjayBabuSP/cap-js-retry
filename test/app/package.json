@@ -1,0 +1,19 @@
+{
+  "name": "test-app",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@sap/cds": "^9"
+  },
+  "cds": {
+    "requires": {
+      "db": {
+        "kind": "sqlite",
+        "impl": "@cap-js/sqlite",
+        "credentials": {
+          "url": ":memory:"
+        }
+      }
+    }
+  }
+}
